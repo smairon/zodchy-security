@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "zodchy-security"
-version = "0.1.1"
+version = "0.1.2"
 description = "Collection of tools to secure application with zodchy architecture"
 authors = ["Smairon <man@smairon.ru>"]
 readme = "README.md"
@@ -9,7 +9,6 @@ packages = [{ include = "zodchy_security" }]
 
 [tool.poetry.dependencies]
 python = "^3.11"
-zodchy = "^0.1.0"
 pyjwt = "^2.8.0"
 
 
